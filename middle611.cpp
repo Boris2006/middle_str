@@ -73,4 +73,4 @@ string itc_Cezar(string a, int b){
             c = 0;}}
     return e;}
 string itc_rmFreeSpace(string a){
-    long long b = 
+    long long b = itc_countWords(a);
