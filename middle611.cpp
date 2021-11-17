@@ -72,4 +72,5 @@ string itc_Cezar(string a, int b){
             e = e + a[i];
             c = 0;}}
     return e;}
-  
+string itc_rmFreeSpace(string a){
+    long long b = 
