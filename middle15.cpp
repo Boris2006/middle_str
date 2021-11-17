@@ -32,8 +32,7 @@ bool itc_сompare(string a, string b){
             return false;}}
     return true;
 }
- int itc_countWords(string a)
-{
+ int itc_countWords(string a){
     long long b = 0, c = 0;
     string f = "";
     for (long long i = 0; str[i] != '\0'; i++){
@@ -47,7 +46,6 @@ bool itc_сompare(string a, string b){
             f = "";}}
     if (c != 0){
         b++;}
-    return b;
-}
+    return b;}
      
             
