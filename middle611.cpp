@@ -30,7 +30,7 @@ char itc_sameChar(string a){
     k = 0;
   }
 }
-        
+bool itc_isFirstInSecond(string s1, string s2){
     
     
-    
+  
