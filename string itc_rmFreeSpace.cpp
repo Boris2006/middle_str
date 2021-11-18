@@ -19,4 +19,4 @@ string itc_rmFreeSpace(string a){
     if (c != 0){
         b++;
         p = p + f;}
-    return b;}
+    return p;}
