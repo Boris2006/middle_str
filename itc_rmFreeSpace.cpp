@@ -1,6 +1,6 @@
 #include "middle_str.h"
 string itc_rmFreeSpace(string a){
-    long long t = itc_countWords(a);
+    long long t = itc_len(a);
     long long b = 0, c = 0;
     string f = "", p;
     for (long long i = 0; str[i] != '\0'; i++){
