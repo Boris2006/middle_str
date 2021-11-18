@@ -17,5 +17,5 @@ string itc_Cezar(string a, int b){
             c ++;
         }else{
             e = e + a[i];
-            c = 0;}}
+            c = 1;}}
     return e;}
