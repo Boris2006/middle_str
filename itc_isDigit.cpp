@@ -2,7 +2,7 @@
 
 bool itc_isDigit(unsigned char a){
     bool b;
-    if (8 <= a and a <= 57){
+    if (48 <= a and a <= 57){
         return b = 1;
     }else{
         return b = 0;
