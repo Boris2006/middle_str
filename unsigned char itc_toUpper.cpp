@@ -1,4 +1,4 @@
-#include "middle_str"
+#include "middle_str.h"
 unsigned char itc_toUpper(unsigned char a)
 {
     if (97 <= a and a <= 122){
