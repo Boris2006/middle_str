@@ -13,4 +13,5 @@ char itc_sameChar(string str);
 bool itc_isFirstInSecond(string s1, string s2);
 string itc_Cezar(string str, int k);
 string itc_rmFreeSpace(string str);
+long long itc_len(strinf a);
 #endif // MIDDLE_H_INCLUDED
