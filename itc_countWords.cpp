@@ -7,8 +7,8 @@ int itc_countWords(string a){
             f = f + str[i];
             c++;
         }else{
-            if (c != 0)
-                b++;
+            if (c != 0){
+                b++;}
             c = 0;
             f = "";}}
     if (c != 0){
