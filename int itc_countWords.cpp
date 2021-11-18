@@ -1,4 +1,4 @@
-#icnlude "middle_str"
+#include "middle_str.h"
 int itc_countWords(string a){
     long long b = 0, c = 0;
     string f = "";
