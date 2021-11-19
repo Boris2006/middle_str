@@ -11,4 +11,5 @@ long long itc_len(string a);
 int itc_countWords(string a);
 string itc_maxCharWord(string str);
 char itc_sameChar(string str);
+bool itc_isFirstInSecond(string s1, string s2);
 #endif // MIDDLE_H_INCLUDED
