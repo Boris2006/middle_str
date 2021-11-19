@@ -5,7 +5,7 @@ char itc_sameChar(string a){
     string d = "";
     string ans = "";
     for (long long i = 0; a[i] != '\0'; i++){
-        if (65 <= a[i] and a[i] <= 90 or 97 <= a[i] and a[i] <= 122)
+        if (65 <= a[i] and a[i] <= 90 or 97 <= a[i] and a[i] <= 122){
             c = 0;
             d += a[i];
             b ++;
@@ -13,11 +13,11 @@ char itc_sameChar(string a){
                 if (a[o] == a[i])
                     c++;
             }
-            if (c == 2)
+            if (c == 2){
                 t = a[i];
-                return t;
-        else
-            b = 0;
+                return t;}
+        }else{
+            b = 0;}
     }
     return t;
 }
