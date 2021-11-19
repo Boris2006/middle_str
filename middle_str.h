@@ -9,4 +9,5 @@ unsigned char itc_changeCase(unsigned char c);
 bool itc_compare(string s1, string s2);
 long long itc_len(string a);
 int itc_countWords(string a);
+string itc_maxCharWord(string str);
 #endif // MIDDLE_H_INCLUDED
