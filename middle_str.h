@@ -5,4 +5,5 @@ using namespace std;
 #define MIDDLE_H_INCLUDED
 bool itc_isDigit(unsigned char c);
 unsigned char itc_toUpper(unsigned char a);
+unsigned char itc_changeCase(unsigned char c);
 #endif // MIDDLE_H_INCLUDED
