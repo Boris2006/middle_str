@@ -3,7 +3,7 @@ string itc_Cezar(string a, int b){
     string c = "";
     if (a == "")
         return "error";
-    for (int i = 0; str[i] != '\0'; i++){
+    for (int i = 0; a[i] != '\0'; i++){
         if (65 <= a[i] and a[i] <= 90)
                         b = (b % 26) + 26;
 			c = c + a[i] + (b % 26) % 26 ;
