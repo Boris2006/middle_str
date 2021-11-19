@@ -1,5 +1,5 @@
 #include "middle_str.h"
-bool itc_Ñompare(string a, string b){
+bool itc_compare(string a, string b){
     long long d = itc_len(a), f = itc_len(b), g;
     if (d != f)
         return false;
