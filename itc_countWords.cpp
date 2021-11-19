@@ -4,7 +4,7 @@ int itc_countWords(string a){
     if (a == "")
         return 0;
     for (long long i = 0; a[i] != '\0'; i++){
-        if ((65 <= a[i] and a[i] <= 90) or (97 <= a[i] and a[i] <= 122))
+        if (65 <= a[i] and a[i] <= 90 or 97 <= a[i] and a[i] <= 122)
             c ++;
         else
            if (a[i] == ' ')
