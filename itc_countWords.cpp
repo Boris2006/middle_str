@@ -16,4 +16,4 @@ int itc_countWords(string a){
         d++;
     if (e != 1)
         return 0;
-    return d;
+    return d;}
