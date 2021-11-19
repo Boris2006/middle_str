@@ -1,5 +1,5 @@
 #include "middle_str.h"
-bool itc_isFirstInSecond(string s1, string s2){
+bool itc_isFirstInSecond(string a, string b){
     string h = "", y = "";
     bool q;
     int c, e, j = -1, g;
