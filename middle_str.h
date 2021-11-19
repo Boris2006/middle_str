@@ -6,5 +6,5 @@ using namespace std;
 bool itc_isDigit(unsigned char c);
 unsigned char itc_toUpper(unsigned char a);
 unsigned char itc_changeCase(unsigned char c);
-bool itc_сompare(string s1, string s2);
+bool itc_compare(string s1, string s2);
 #endif // MIDDLE_H_INCLUDED
