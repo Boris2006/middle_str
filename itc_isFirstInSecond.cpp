@@ -15,7 +15,7 @@ bool itc_isFirstInSecond(string a, string b){
         if (h == b){
             j = i - e;
         }else{
-            h = y;}}
+            h = y;}
     }
     if (j == -1){
         return q = 0;}
