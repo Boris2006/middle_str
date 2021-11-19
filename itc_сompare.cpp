@@ -1,6 +1,8 @@
 #include "middle_str.h"
 bool itc_compare(string a, string b){
-    long long d = itc_len(a), f = itc_len(b), g;
+    long long d, f, g;
+    d = itc_len(a);
+    f = itc_len(b);
     if (d != f)
         return false;
     for ( long long i = 0; a[i] != '\0'; i++){
