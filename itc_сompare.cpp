@@ -1,12 +1,15 @@
 #include "middle_str.h"
 bool itc_compare(string a, string b){
-    long long d, f, g;
-    d = itc_len(a);
-    f = itc_len(b);
-    if (d != f)
+    long long c, d;
+    c = itc_len(a);
+    d = itc_len(b);
+    if (b == "")
         return false;
-    for ( long long i = 0; a[i] != '\0'; i++){
+    if (c != d)
+        return false;
+    for(int i = 0; i < c; i++){
         if (a[i] != b[i])
-            return false;}
+            return false;
+    }
     return true;
 }
