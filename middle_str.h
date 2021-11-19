@@ -13,4 +13,8 @@ string itc_maxCharWord(string str);
 char itc_sameChar(string str);
 bool itc_isFirstInSecond(string s1, string s2);
 string itc_Cezar(string a, int b);
+string itc_rmFreeSpace(string str);
+bool itc_isIp(string str);
+string itc_DecToBin(string str);
+string itc_decToBase(int num, int base);
 #endif // MIDDLE_H_INCLUDED
