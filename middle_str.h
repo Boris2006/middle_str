@@ -4,4 +4,5 @@ using namespace std;
 #ifndef MIDDLE_H_INCLUDED
 #define MIDDLE_H_INCLUDED
 bool itc_isDigit(unsigned char c);
+unsigned char itc_toUpper(unsigned char a);
 #endif // MIDDLE_H_INCLUDED
