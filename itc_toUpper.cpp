@@ -4,5 +4,5 @@ unsigned char itc_toUpper(unsigned char a){
         return a - 32;
     }else if (65 <= a and a <= 90){
         return a + 32;
-    }else{
-        return a;}}
+    }
+}
