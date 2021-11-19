@@ -19,5 +19,5 @@ char itc_sameChar(string a){
         else
             b = 0;
     }
-    return ‘b’;
+    return t;
 }
