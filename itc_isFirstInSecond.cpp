@@ -12,11 +12,11 @@ bool itc_isFirstInSecond(string s1, string s2){
         while(g < i){
             h = h + a[g];
             g++;}
-        if (h == b){
+        if (h == b)
             j = i - e;
-        }else{
+        else
             h = y;}
     }
-    if (j == -1){
-        return q = 0;}
+    if (j == -1)
+        return q = 0;
     return q = 1;}
