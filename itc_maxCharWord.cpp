@@ -7,20 +7,20 @@ string itc_maxCharWord(string a){
     string e = "";
     string r = "";
     for (long long i = 0; a[i] != '\0'; i++){
-        if (65 <= a[i] and a[i] <= 90 or 97 <= a[i] and a[i] <= 122)
+        if (65 <= a[i] and a[i] <= 90 or 97 <= a[i] and a[i] <= 122){
             e += a[i];
             d ++;
-        else
-            if (a[i] == ' ')
-                b = true;
-            if (c < d)
+        }else{
+            if (a[i] == ' '){
+                b = true;}
+            if (c < d){
                 c = d;
-                r = e;
+                r = e;}
             d = 0;
-            e = "";
+            e = "";}
     }
-    if (c < d)
-        r = e;
-    if (!b)
-        return "error";
+    if (c < d){
+        r = e;}
+    if (!b){
+        return "error";}
     return r;}
